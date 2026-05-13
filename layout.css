@@ -164,7 +164,7 @@ footer {
 }
 
 #sidebar-menu.active.scrolled {
-    transform: translateX(0) translateY(60px);
+    transform: translateX(0) translateY(70px);
 }
 
 .sidebar-button {
@@ -241,7 +241,7 @@ footer {
             transform: translateX(0) translateY(70px);
     }
     #sidebar-menu.active.scrolled {
-        transform: translateX(0) translateY(50px);
+        transform: translateX(0) translateY(60px);
     }
 }
 
@@ -273,7 +273,7 @@ footer {
             transform: translateX(0) translateY(60px);
     }
     #sidebar-menu.active.scrolled {
-        transform: translateX(0) translateY(40px);
+        transform: translateX(0) translateY(50px);
     }
 }
 
@@ -305,7 +305,7 @@ footer {
             transform: translateX(0) translateY(60px);
     }
     #sidebar-menu.active.scrolled {
-        transform: translateX(0) translateY(40px);
+        transform: translateX(0) translateY(50px);
     }
 }
 
@@ -337,7 +337,7 @@ footer {
             transform: translateX(0) translateY(50px);
     }
     #sidebar-menu.active.scrolled {
-        transform: translateX(0) translateY(30px);
+        transform: translateX(0) translateY(40px);
     }
 }
 
