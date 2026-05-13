@@ -1,0 +1,67 @@
+@import "colors.css";
+
+/* Formatting */
+
+p {
+	margin: 0;
+	padding: 0;
+}
+button {
+	padding: 0;
+
+	background: none;
+    border: none;
+    outline: none;
+
+	cursor: pointer;
+}
+input {
+	width: 100%;
+	height: 100%;
+
+	font-size: 25px;
+
+	padding: 0 10px;
+
+	background: none;
+    border: none;
+    outline: none;
+
+	cursor: pointer;
+}
+textarea {
+	padding: 0;
+
+	background: none;
+    border: none;
+    outline: none;
+
+	cursor: pointer;
+}
+
+/* Assets */
+
+.divider-line {
+	display: block;
+	height: 4px;
+	width: 100px;
+	background-color: var(--other-gold);
+	margin: 5px 0 0 0;
+	border: hidden;
+}
+
+.centre-line {
+	margin: 5px auto 0 auto;
+}
+
+.textbox {
+	width: 90%;
+	height: 40px;
+
+	margin: 10px auto auto auto;
+
+	border: 1px solid black;
+	border-radius: 50px;
+
+	background-color: white;
+}

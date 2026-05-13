@@ -1,0 +1,27 @@
+:root {
+	--white: #ffffffff;
+	--darker-white: #f3f3f3ff;
+	--gray: #bbbbbbff;
+		
+	--other-orange: #ff9900ff;
+	--other-red: #cc4125ff;
+	--other-darkgreen: #38761dff;
+	--other-lightgreen: #6aa84fff;
+	--other-magenta: #a64d79ff;
+	--other-gold: #dfb844ff;
+	--other-green: #93c47dff;
+	--other-darkorange: #d88900b2;
+
+	--transparent-black: #00000062;
+	--transparent-green: #127703b2;
+	--transparent-orange: #bb7700b2;		
+	--transparent-white: #eeeeeeb2;
+		
+	--alternate-purple: #674ea7b2;
+	--alternate-lightgreen: #6aa84fb2;
+	--alternate-yellow1: #e6ba34b2;
+	--alternate-yellow2: #f1c232b2;
+	
+	--linkedin-color: #0e76a8;
+	--instagram-color: #8a49a1;
+}
