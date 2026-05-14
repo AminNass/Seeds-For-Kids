@@ -38,7 +38,10 @@ textarea {
 
 	cursor: pointer;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* Assets */
 
 .divider-line {
@@ -65,3 +68,22 @@ textarea {
 
 	background-color: white;
 }
+
+/* Test */
+
+.contactus-button {
+    text-align: center;
+    padding: 10px;
+  
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+
+    background-color: var(--other-lightgreen);
+
+    width: 100px;
+    height: min-content;
+
+    color: var(--white);
+    font-size: 16px;
+	font-weight: 500;
+}   

@@ -46,7 +46,11 @@
 		<a href="url">Schools</a>
 		<a href="url">Families</a>
 		<a href="url">News</a>
-		<a href="url">Contact Us</a>
+		<a href="url">
+			<div class="contactus-button">
+				Contact Us
+			</div>
+		</a>
 	</nav>
 	
 	<div id="sidebar">
