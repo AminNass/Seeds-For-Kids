@@ -7,11 +7,11 @@
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <link href="buttons.css" rel="stylesheet" type="text/css">
+<script src="Scripts/slideshow.js" defer></script>
 <!-- InstanceEndEditable -->
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="features.css" rel="stylesheet" type="text/css">
 <link href="colors.css" rel="stylesheet" type="text/css">
-	
 <script src="Scripts/common.js" defer></script>
 
 </head>
@@ -62,12 +62,59 @@
 <section>
 	<!-- InstanceBeginEditable name="Content" -->
 	
-	<div class="slideshow">
-		test
+	<div class="slideshow-container">
+		
+		<div style="padding: 30px">
+			<div style="width: 350px;" class="section-contentbox curved">
+				<p style="font-size: 35px; font-weight: 600;">
+					You don’t have to like it, just try it
+				</p>
+			</div>
+			<br>
+		  <div style="width: 300px;" class="section-contentbox curved">
+			  <p style="font-weight: 500">
+				  Healthy Cooking Courses
+			  </p>
+			  <p>
+				  Get a free 15′ conversation on how we can help you
+			  </p>
+			  <button><div style="background-color: var(--transparent-orange);" class="curved-button">Learn More</div></button>
+			</div>
+		</div>
+		
+		<img src="Images/slideshow/slideshow-1.jpg" class="slide" alt="Slide 1">
+		<img src="Images/slideshow/slideshow-2.jpg" class="slide" alt="Slide 2">
+		<img src="Images/slideshow/slideshow-3.jpg" class="slide" alt="Slide 2">
 	</div>
-	
 	<div class="whoweworkwith">
-		who we work with
+		<div style="width: 100%; padding-bottom: 8px;" class="centre-horizontal centre-vertical">
+			<p style=" padding: 10px; font-size: 22px; font-weight: 500;">
+				Who we work with
+			</p>
+			<div style="margin: -5px 0 10px 0;" class="divider-line"></div>
+		</div>
+		
+		<div class="scroll-track">
+			<a href="https://amblondra.esteri.it"><img style="width: 300px" src="Images/slideshow/ambasciatalondra-logo-1.jpg" class="whoweworkwith-image" alt="Ambasciata d'Italia a Londra"></a>
+			<a href="https://family-action.org.uk/change4life"><img style="width: 300px" src="Images/slideshow/Change4Life-logo.jpg" class="whoweworkwith-image" alt="Change For Life"></a>
+			<a href="https://www.chepstowhouseschool.co.uk"><img style="width: 300px" src="Images/slideshow/chepstow-house-school.jpeg" class="whoweworkwith-image" alt="Chepstow house school"></a>
+			<a href="https://www.icslondon.co.uk"><img style="width: 300px" src="Images/slideshow/IcsLondon.jpg" class="whoweworkwith-image" alt="Ics London"></a>
+			<a href="https://www.ilcircolo.org.uk"><img style="width: 300px" src="Images/slideshow/ilcircolo-1.jpg" class="whoweworkwith-image" alt="IL Circolo"></a>
+			<a href="https://www.olov.rbkc.sch.uk"><img style="width: 300px" src="Images/slideshow/OurLadyOfVictories-logo.jpeg" class="whoweworkwith-image" alt="Our Lady of Victories Catholic primary school"></a>
+			<a href="https://www.stpeaton.org.uk"><img style="width: 300px" src="Images/slideshow/stperterseatonsquare.jpg" class="whoweworkwith-image" alt="St Peter's Eaton Square CofE Primary School"></a>
+			<a href="https://www.nutrition.org.uk/healthy-eating-week"><img style="width: 300px" src="Images/slideshow/thehealthyeating.jpg" class="whoweworkwith-image" alt="Nutrition's Healthy Eating Week"></a>
+			<a href="https://www.rbkc.gov.uk"><img style="width: 300px" src="Images/slideshow/theroyalbarough.jpg" class="whoweworkwith-image" alt="The Royal Borough of kensington and chelsea"></a>
+			
+			<a href="https://amblondra.esteri.it"><img style="width: 300px" src="Images/slideshow/ambasciatalondra-logo-1.jpg" class="whoweworkwith-image" alt="Ambasciata d'Italia a Londra"></a>
+			<a href="https://family-action.org.uk/change4life"><img style="width: 300px" src="Images/slideshow/Change4Life-logo.jpg" class="whoweworkwith-image" alt="Change For Life"></a>
+			<a href="https://www.chepstowhouseschool.co.uk"><img style="width: 300px" src="Images/slideshow/chepstow-house-school.jpeg" class="whoweworkwith-image" alt="Chepstow house school"></a>
+			<a href="https://www.icslondon.co.uk"><img style="width: 300px" src="Images/slideshow/IcsLondon.jpg" class="whoweworkwith-image" alt="Ics London"></a>
+			<a href="https://www.ilcircolo.org.uk"><img style="width: 300px" src="Images/slideshow/ilcircolo-1.jpg" class="whoweworkwith-image" alt="IL Circolo"></a>
+			<a href="https://www.olov.rbkc.sch.uk"><img style="width: 300px" src="Images/slideshow/OurLadyOfVictories-logo.jpeg" class="whoweworkwith-image" alt="Our Lady of Victories Catholic primary school"></a>
+			<a href="https://www.stpeaton.org.uk"><img style="width: 300px" src="Images/slideshow/stperterseatonsquare.jpg" class="whoweworkwith-image" alt="St Peter's Eaton Square CofE Primary School"></a>
+			<a href="https://www.nutrition.org.uk/healthy-eating-week"><img style="width: 300px" src="Images/slideshow/thehealthyeating.jpg" class="whoweworkwith-image" alt="Nutrition's Healthy Eating Week"></a>
+			<a href="https://www.rbkc.gov.uk"><img style="width: 300px" src="Images/slideshow/theroyalbarough.jpg" class="whoweworkwith-image" alt="The Royal Borough of kensington and chelsea"></a>
+		</div>
 	</div>
 	
 	<div class="section-background">
@@ -81,7 +128,7 @@
 			<div class="section-halfcontent flex-direction">
 				<div class="min-content">
 			    	<img style="width: 250px" src="Images/content/raffaella-img.png" alt=""/>
-			  	</div>
+			  	</div>	
 				<p class="sentence-spacing">
 					At Seeds for Kids, we believe that teaching children to enjoy healthy food begins with taste education. Only by expanding their taste range can we increase their acceptance of new foods. That’s why taste education is at the heart of everything we do.
 					<br>We design personalised programmes that encourage young children to explore, enjoy, and embrace new flavours. By nurturing their natural curiosity and sense of adventure, we help them discover the joy of tasting a wide variety of healthy ingredients, from fruits and vegetables to whole grains, laying the foundation for lifelong healthy eating habits.
@@ -211,8 +258,8 @@
 			<p>
 				Subscribe to the newsletter
 			</p>
-			<div class="textbox">
-				<input>
+			<div style="background-color: var(--transparent-white)" class="textbox">
+				<input type="text" name="newsletter" id="newsletter">
 			</div>
 			
 			<div style="width: 100%; padding: 10px 10px 0 10px;" class="section-halfcontent">
@@ -285,6 +332,9 @@
 		</p>
 	</div>
 </footer>
+<div style="width: 100%; padding-left: 10px; background-color: var(--darker-white)">
+	© Seeds For Kids 2026
+</div>
 
 </body>
 <!-- InstanceEnd --></html>

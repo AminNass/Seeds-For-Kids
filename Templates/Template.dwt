@@ -9,7 +9,7 @@
 <!-- TemplateEndEditable -->
 <link href="../layout.css" rel="stylesheet" type="text/css">
 <link href="../features.css" rel="stylesheet" type="text/css">
-	
+<link href="../colors.css" rel="stylesheet" type="text/css">
 <script src="../Scripts/common.js" defer></script>
 
 </head>
@@ -119,6 +119,9 @@
 		</p>
 	</div>
 </footer>
+<div style="width: 100%; padding-left: 10px; background-color: var(--darker-white)">
+	© Seeds For Kids 2026
+</div>
 
 </body>
 </html>
