@@ -451,6 +451,12 @@ footer {
     text-align: left;
 }
 
+.page-divider {
+    height: 30px;
+    padding: 0;
+    background-color: var(--white);
+}
+
 .background-image {
     position: absolute;
     inset: 0;
@@ -461,6 +467,16 @@ footer {
     object-fit: cover;
 
     filter: brightness(70%);
+}
+
+.background-color {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
 }
 
 .section-contentbox {
@@ -511,6 +527,14 @@ footer {
     flex-direction: row;
 }
 
+.force-flexcolumn {
+    flex-direction: column;
+}
+
+.force-nogap {
+    gap: 0;
+}
+
 .sentence-spacing {
     white-space: normal;
 }
@@ -525,7 +549,7 @@ footer {
     justify-items: center;
 }
 
-@media (max-width: 1200px) and (min-width: 0px) {
+@media (max-width: 1300px) and (min-width: 0px) {
     .flex-direction {
         flex-direction: column;
     }
