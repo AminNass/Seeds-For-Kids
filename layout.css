@@ -469,6 +469,10 @@ footer {
     filter: brightness(70%);
 }
 
+.image-contrast {
+    filter: opacity(0.5)
+}
+
 .background-color {
     position: absolute;
     inset: 0;
@@ -547,6 +551,11 @@ footer {
 .centre-vertical {
     align-items: center;
     justify-items: center;
+}
+
+.font-white {
+    color: var(--white);
+    z-index: 10 ;
 }
 
 @media (max-width: 1300px) and (min-width: 0px) {

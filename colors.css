@@ -1,6 +1,7 @@
 :root {
 	--white: #ffffffff;
 	--darker-white: #f3f3f3ff;
+	--ligther-gray: rgb(248, 248, 248);
 	--gray: #bbbbbbff;
 		
 	--other-orange: #ff9900ff;
@@ -24,4 +25,10 @@
 	
 	--linkedin-color: #0e76a8;
 	--instagram-color: #8a49a1;
+}
+
+.special-gold {
+	color: var(--other-gold);
+	text-shadow: 1px 1px 2px black;
+	font-size: 30px;
 }
