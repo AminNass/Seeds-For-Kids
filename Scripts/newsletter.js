@@ -8,6 +8,6 @@ function submitNewsletter() {
         inputElement.value = "";
         showPopup("News letter", "Thank you for subscribing to our news letter.")
     } else {
-        alert("Email invalid")
+        alert("Email must be in the right format.")
     }
 }
