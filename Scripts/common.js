@@ -2,6 +2,7 @@
 const menuToggle = document.getElementById('sidebar-toggle');
 const sidebar = document.getElementById('sidebar-menu');
 
+const popup = document.getElementById("popup")
 
 function toggleSidebar() {
     sidebar.classList.toggle('active');
@@ -24,3 +25,37 @@ window.addEventListener('scroll', () => {
         sidebar.classList.remove('scrolled');
     }
 });
+
+function showPopup(title, message) {
+
+    const popupTitle = document.getElementById("popup-title");
+    const popupMessage = document.getElementById("popup-text");
+
+    popupTitle.textContent = title;
+    popupMessage.textContent = message;
+
+    popup.showModal()
+
+}
+
+function isEmailValid(email) {
+
+    if (!email.includes("@")) {
+        return false
+    }
+
+    if (!email.includes(".")) {
+        return false;
+    }
+
+    if (email.length < 6) {
+        return false;
+    }
+
+    if (email.lastIndexOf(".") < email.indexOf("@")) {
+        return false;
+    }
+    
+    return true;
+
+}

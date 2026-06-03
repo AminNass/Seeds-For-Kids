@@ -15,8 +15,11 @@ button {
 
 	cursor: pointer;
 }
+button:hover {
+  filter: brightness(1.15);
+}
 input {
-	width: 100%;
+	width: 97%;
 	height: 100%;
 
 	font-size: 25px;
@@ -30,7 +33,12 @@ input {
 	cursor: pointer;
 }
 textarea {
-	padding: 0;
+	width: 97%;
+	height: 100%;
+
+	font-size: 25px;
+
+	padding: 0 10px;
 
 	background: none;
     border: none;
@@ -38,10 +46,22 @@ textarea {
 
 	cursor: pointer;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
+dialog {
+	border: 2px solid black;
+	border-radius: 30px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+
 /* Assets */
 
 .divider-line {

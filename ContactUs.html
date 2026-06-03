@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Families</title>
+<title>Untitled Document</title>
 <link href="buttons.css" rel="stylesheet" type="text/css">
+<script src="Scripts/contactus.js" defer></script>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -64,9 +65,9 @@
 	<div style="align-items: flex-start;" class="section-background">
 		<img class="background-image" src="Images/background/background-1.jpg" alt=""/>
 		
-		<div style="width: 105px; margin-left: 50px;" class="section-contentbox">
+		<div style="width: 140px; margin-left: 50px" class="section-contentbox">
 			<p style="font-size: 25px; font-weight: 500; padding-bottom: 5px;">
-				Families
+				Contact us
 			</p>
 		
 		</div>
@@ -75,104 +76,110 @@
 	<div class="section-background page-divider"></div>
 	
 	<div class="section-background">
-		<img class="background-image image-contrast" src="Images/background/background-1.jpg" alt=""/>
-		
-		<div style="width: min(700px, 90%);" class="section-contentbox curved">
-			<p style="font-size: 25px; font-weight: 500; padding-bottom: 5px;">
-				Dear Families,
-			</p>
-			<p style="width: 100%; text-align: center">
-				We teach parents and child carers to educate their child to eat everything adjusting our taste education method to their specific food habits and family lifestyle.
-			</p>
-			<button><div style="background-color: var(--other-lightgreen); width: 350px" class="curved-button button-outline">BOOK A FREE 15 MIN CONSULTATION</div></button>
-		</div>
-	</div>
-	
-	<div id="Consultation" class="section-background">
-	  <img class="background-image" src="Images/background/background-2.jpg" alt=""/>
+	  <img class="background-image" src="Images/background/fruitdrawing-arty.png" alt=""/>
 		
 		<div style="width: 70%" class="section-halfcontent flex-direction centre-horizontal">
 			
 			<img style="z-index: 1;" src="Images/content/raffaella-img3.png" alt=""/>
 			
-			<div style="white-space: pre-line; width: min(700px, 90%)" class="section-contentbox curved">
-				<p style="font-weight: 600">Bespoke Consultation
+			<div style="width: min(700px, 90%); background-color: var(--transparent-white); color: black;" class="section-contentbox curved">
+				<p style="font-weight: 600; width: 100%;">Contact us
 				</p>
-				<p>
-					The initial consultation is set to draw a clear picture of the child’s health and lifestyle and to give the first introduction to his/her nutrition requirements.
+				<div style="width: 100%; padding-bottom: 10px;"><div class="divider-line"></div></div>
+				<p style="padding-bottom: 10px">If you need more information on what we could offer to you school please get in touch and someone of the team will get back to you as soon as possible
 				</p>
-				<p>
-					It evaluates a typical weekly food diary, the child’s diet history and a detailed food intake questionnaire, previously provided. Family food habit and culture are also a crucial part of the evaluation process, as well as the child’s social environment, like school and friends.
-				</p>
-				<p>
-					The consultation lasts 60 minutes and includes a first explanation of what easy and immediate changes in the child’s diet and lifestyle should be made immediately and what other relevant changes require more time and a specific education programme.
-				</p>
-				<button><div style="background-color: var(--other-lightgreen); width: 350px" class="curved-button button-outline">BOOK A FREE 15 MIN CONSULTATION</div></button>
+				
+				<label style="width: 100%; padding-left: 10px;">First Name:</label>
+				<div style="background-color: var(--transparent-white); width: 100%;" class="textbox">
+					<input type="text" name="contactus-firstname" id="inputFirstname-ContactUs">
+				</div>
+				<label style="width: 100%; padding-left: 10px;">Last Name:</label>
+				<div style="background-color: var(--transparent-white); width: 100%;" class="textbox">
+					<input type="text" name="contactus-lastname" id="inputLastname-ContactUs">
+				</div>
+				<label style="width: 100%; padding-left: 10px;">Email:</label>
+				<div style="background-color: var(--transparent-white); width: 100%;" class="textbox">
+					<input type="text" name="contactus-email" id="inputEmail-ContactUs">
+				</div>
+				<label style="width: 100%; padding-left: 10px;">Message:</label>
+				<div style="background-color: var(--transparent-white); width: 100%; height: 200px; border-radius: 20px;" class="textbox">
+					<textarea type="text" name="contactus-message" id="inputMessage-ContactUs" onInput="contactUsCharLimit()"></textarea>
+				</div>
+				<div style="width: 100%; height: 50px; padding: 0;" class="section-halfcontent force-nogap">
+					<div style="width: 100%; padding-left: 5px; padding-top: 3px;"><button onClick="submitContactUs()"><div style="background-color: var(--other-gold); width: 65px;" class="curved-button">Send</div></button></div>
+					<p style="width: 20%; font-size: 18px; font-weight: 500;" id="contactUs-prompt">0 / 500</p>
+				</div>
 			</div>
 	  </div>
 	</div>
 	
-	<div id="Education-Plan" class="section-background">
+	<div style="padding: 8px 0 3px 0" class="section-background">
+	  <div class="background-color" style="background-color: var(--white);"></div>
+		
+		<div style="color: black; background-color: transparent;" class="section-contentbox">
+			<p style="text-align: center">Should you need to check if food and taste education is right for your child, please take advantage of a free 15 minute call</p>
+			<button><div style="background-color: var(--other-lightgreen); width: 350px" class="curved-button button-outline">BOOK A FREE 15 MIN CONSULTATION</div></button>
+		</div>
+		
+	</div>
+	
+	<div class="section-background">
 	  <img class="background-image" src="Images/background/background-2.jpg" alt=""/>
 		
 		<div style="width: 70%" class="section-halfcontent flex-direction centre-horizontal">
-			
-			<div style="white-space: pre-line; width: min(700px, 100%);" class="section-contentbox curved">
-				<p style="font-weight: 600">Food & Taste Education Plan
-				</p>
-				<p>
-					The Program runs on a 4 weeks’ bases and includes: Bespoke taste education plan, designed on the child likes and dislikes, with the main focus of introducing specific new food that will help the child to reach his 4 weeks’ goals.
-				</p>
-				<p>
-					Personalized recipes that will suit the child’s health, taste and lifestyle and will introduce one new food each week.
-				</p>
-				<p>
-					Weekly Nutritional Cooking Workshops. organised at home for the child, one friend and the parents. A great occasion to learn by doing, that will include learning stories and nutritional information according to the child’s age and to the monthly goals, where the child will create dishes of his choice.
-				</p>
-				<p>
-					This workshop lasts up to 60 minutes and it is held in a familiar place, like his/her home kitchen, possibly with one friend with whom share the fun and enjoy eating!
-				</p>
-			</div>
 			
 			<div class="section-halfcontent force-flexcolumn">
 				
-				<img style="z-index: 1;" src="Images/content/hands-and-fruits-vegs.jpg" alt=""/>
-				
-				<div style="width: 400px" class="section-contentbox curved">
-					<p style="text-align: center">
-						The course will end with a jointly agreed set of goals to be reached with the bespoke food education program.
-
-					</p>
-					<button><div style="background-color: var(--other-lightgreen); width: 350px" class="curved-button button-outline">BOOK A FREE 15 MIN CONSULTATION</div></button>
+				<div style="width: 400px" class="section-contentbox">
+					<p style="width: 100%; font-weight: 600; padding-bottom: 5px;">Offices</p>
+					<p style="width: 100%;">West London</p>
+					<p style="width: 100%;">Kensington and Chelsea</p>
 				</div>
 				
+				<div style="width: 400px" class="section-contentbox">
+					<p style="width: 100%; font-weight: 600; padding-bottom: 5px;">Email</p>
+					<p style="width: 100%;">info@seedsforkids.co.uk</p>
+				</div>
+				
+			</div>
+			
+			<div style="background-color: transparent; padding: 0;" class="section-contentbox">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d155.25400796685093!2d-0.2028068281649238!3d51.49369068390044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f9b1727cadb%3A0x76991025e1359e30!2sSeeds%20for%20Kids!5e0!3m2!1sen!2sin!4v1780429691839!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			
+	  </div>
+	</div>
+	
+	<div class="section-background page-divider"></div>
+	
+	<div class="section-background">
+	  <img class="background-image" src="Images/background/background-2.jpg" alt=""/>
+		
+		<div style="width: 80%" class="section-halfcontent flex-direction centre-horizontal">
+			
+		  <div style="width: min(300px, 100%); background-color: var(--transparent-white); color: black;" class="section-contentbox curved">
+				<p style="font-weight: 300; font-size: 18px;">Check out our socials
+				</p>
+				<p style="font-weight: 500; font-size: 22px">Instagram
+				</p>
+				<button onClick="window.location.href='https://www.instagram.com/seeds_for_kids'"><div style="background-color: var(--instagram-color); width: 150px" class="curved-button button-outline">seeds_for_kids</div></button>
+				<p style="font-weight: 500; font-size: 22px">LinkedIn					
+				</p>
+				<button onClick="window.location.href='https://www.facebook.com/Seeds4kids/'"><div style="background-color: var(--linkedin-color); width: 150px" class="curved-button button-outline">seeds_for_kids</div></button>
+			</div>
+			
+			
+			
+			<div style="width: min(520px, 100%); background-color: var(--transparent-white); color: black;" class="section-contentbox curved">
+				<p style="font-weight: 600; padding-bottom: 8px">Latest Instagram posts</p>
+
+				<!-- Elfsight Instagram Feed -->
+				<script src="https://elfsightcdn.com/platform.js" async></script>
+				<div class="elfsight-app-a140cb0f-6b9a-4c97-a1c5-47cf479962c4" data-elfsight-app-lazy></div>
 			</div>
 	  </div>
 	</div>
 	
-	<div id="Cooking-Course" class="section-background">
-	  <img class="background-image" src="Images/background/background-2.jpg" alt=""/>
-		
-		<div style="width: 70%" class="section-halfcontent flex-direction centre-horizontal">
-			
-			<img style="z-index: 1;" src="Images/content/raffaella-img4.jpg" alt=""/>
-			
-			<div style="white-space: pre-line; width: min(700px, 100%)" class="section-contentbox curved">
-				<p style="font-weight: 600">Healthy Cooking Course
-				</p>
-				<p>
-					The course on healthy eating and cooking is customized on the child and family needs. This course provides the tools to change the child’s food habits with an overview on the essentials of nutrition in order to better understand the practical suggestions on healthy food that are crucial for the Monthly Food Education Programme. 
-				</p>
-				<p>
-					Moreover, it explains how to build a balanced meal, how to regulate the child’s portion size and how to set snack and meal schedules. It gives practical tips like time-saving, healthy shopping; it teaches hygiene and safety rules, bespoke cooking techniques and how to read food labels.
-				</p>
-				<p>
-					The course will end with a jointly agreed set of goals to be reached with the bespoke food education program.
-				</p>
-				<button><div style="background-color: var(--other-lightgreen);" class="curved-button button-outline">Learn More</div></button>
-			</div>
-	  </div>
-	</div>
 	
 	<!-- InstanceEndEditable -->
 </section>

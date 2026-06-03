@@ -17,23 +17,23 @@
 <body>
 
 <aside id="sidebar-menu">
-	<button class="sidebar-button top-btn white-btn">Schools</button>
-	<button class="sidebar-button">Primary</button>
-	<button class="sidebar-button">Secondary</button>
-	<button class="sidebar-button">Parents</button>
-	<button class="sidebar-button white-btn">Families</button>
-	<button class="sidebar-button">Consuluation</button>
-	<button class="sidebar-button">Education Plan</button>
-	<button class="sidebar-button">Cooking Course</button>
-	<button class="sidebar-button white-btn">News</button>
-	<button class="sidebar-button">Instagram</button>
-	<button class="sidebar-button bottom-btn">Linkedin</button>
+	<button onClick="window.location.href='Schools.html';" class="sidebar-button top-btn white-btn">Schools</button>
+	<button onClick="window.location.href='Schools.html#Primary';" class="sidebar-button">Primary</button>
+	<button onClick="window.location.href='Schools.html#Secondary';" class="sidebar-button">Secondary</button>
+	<button onClick="window.location.href='Schools.html#Parents';" class="sidebar-button">Parents</button>
+	<button onClick="window.location.href='Families.html';" class="sidebar-button white-btn">Families</button>
+	<button onClick="window.location.href='Families.html#Consultation';" class="sidebar-button">Consuluation</button>
+	<button onClick="window.location.href='Families.html#Education-Plan';" class="sidebar-button">Education Plan</button>
+	<button onClick="window.location.href='Families.html#Cooking-Course';" class="sidebar-button">Cooking Course</button>
+	<button onClick="window.location.href='News.html';" class="sidebar-button white-btn">News</button>
+	<button onClick="window.location.href='https://www.instagram.com/seeds_for_kids/';" class="sidebar-button">Instagram</button>
+	<button onClick="window.location.href='https://www.linkedin.com/company/seeds-for-kids/?originalSubdomain=uk';" class="sidebar-button bottom-btn">Linkedin</button>
 	<br>
-	<button class="sidebar-button top-btn white-btn">About Us</button>
-	<button class="sidebar-button">Contact Us</button>
-	<button class="sidebar-button">Privacy Policy</button>
-	<button class="sidebar-button">Terms & Conditions</button>
-	<button class="sidebar-button bottom-btn">Location</button>
+	<button onClick="window.location.href='AboutUs.html';" class="sidebar-button top-btn white-btn">About Us</button>
+	<button onClick="window.location.href='ContactUs.html';" class="sidebar-button">Contact Us</button>
+	<button onClick="window.location.href='https://seedsforkids.co.uk/terms-conditions/';" class="sidebar-button">Privacy Policy</button>
+	<button onClick="window.location.href='https://seedsforkids.co.uk/privacy-policy-2/';" class="sidebar-button">Terms & Conditions</button>
+	<button onClick="window.location.href='https://maps.app.goo.gl/5eRiy52tVpKEEdqX8';" class="sidebar-button bottom-btn">Location</button>
 </aside>
 
 <header>
@@ -47,11 +47,7 @@
 		<a href="Schools.html">Schools</a>
 		<a href="Families.html">Families</a>
 		<a href="News.html">News</a>
-		<a href="url">
-			<div class="contactus-button">
-				Contact Us
-			</div>
-		</a>
+		<button onClick="window.location.href='ContactUs.html';"><div class="contactus-button">Contact Us</div></button>
 	</nav>
 	
 	<div id="sidebar">
@@ -65,10 +61,10 @@
 <section>
 	<!-- InstanceBeginEditable name="Content" -->
 	
-	<div class="section-background">
+	<div style="align-items: flex-start;" class="section-background">
 		<img class="background-image" src="Images/background/background-1.jpg" alt=""/>
 		
-		<div style="width: 100px;" class="section-contentbox">
+		<div style="width: 100px; margin-left: 50px;" class="section-contentbox">
 			<p style="font-size: 25px; font-weight: 500; padding-bottom: 5px;">
 				Schools
 			</p>
@@ -78,7 +74,7 @@
 	
 	<div class="section-background page-divider"></div>
 	
-	<div class="section-background">
+	<div id="Primary" class="section-background">
 	  <div class="background-color" style="background-color: var(--alternate-purple);"></div>
 		
 	  <div class="section-halfcontent flex-direction centre-horizontal">
@@ -97,13 +93,13 @@
 		</div>
 	</div>
 	
-	<div class="section-background">
+	<div id="Secondary" class="section-background">
 	  <div class="background-color" style="background-color: var(--alternate-lightgreen);"></div>
 		
 	  <div class="section-halfcontent flex-direction centre-horizontal">
 		  
 		  <div class="section-contentbox" style="background-color: transparent; width: min(90%, 600px)">
-		<p style="width: 97%; padding-bottom: 5px; font-size: 25px; font-weight: 600;">Secondary Schools</p>
+			  <p style="width: 97%; padding-bottom: 5px; font-size: 25px; font-weight: 600;">Secondary Schools</p>
 				<div class="section-contentbox">
 						<p>
 						We provide bespoke Healthy Cookery Courses for secondary schools’ students to increase their confidence in the kitchen and get ready for their independent life at University. Students will learn the basics of nutrition and healthy cooking techniques in a combination of theory and practice sessions designed to their school specific needs. They will learn to plan food shopping and create quick and balanced meals for their next life adventure as young adult
@@ -117,7 +113,7 @@
 		</div>
 	</div>
 	
-	<div class="section-background">
+	<div id="Parents" class="section-background">
 	  <div class="background-color" style="background-color: var(--alternate-yellow1);"></div>
 		
 	  <div class="section-halfcontent flex-direction centre-horizontal">
@@ -240,15 +236,24 @@
 
 		<p>
 			<br>
-			Privacy Policy
+			<a href="https://seedsforkids.co.uk/privacy-policy-2/">Privacy Policy</a>
 			<br><br>
-			Terms & Conditions
+			<a href="https://seedsforkids.co.uk/terms-conditions/">Terms & Conditions</a>
 		</p>
 	</div>
 </footer>
 <div style="width: 100%; padding-left: 10px; background-color: var(--darker-white)">
 	© Seeds For Kids 2026
 </div>
+
+<dialog id="popup">
+  <p style="font-size: 25px; font-weight: 600;" id="popup-title"></p>
+  <p id="popup-text"></p>
+  <br>
+  <form method="dialog">
+    <button class="sidebar-button top-btn bottom-btn white-btn">Close</button>
+  </form>
+</dialog>
 
 </body>
 <!-- InstanceEnd --></html>
