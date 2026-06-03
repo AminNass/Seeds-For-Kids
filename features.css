@@ -89,7 +89,7 @@ dialog::backdrop {
 	background-color: white;
 }
 
-/* Test */
+/* Speical button */
 
 .contactus-button {
     text-align: center;
@@ -106,4 +106,13 @@ dialog::backdrop {
     color: var(--white);
     font-size: 16px;
 	font-weight: 500;
-}   
+}
+
+.image-shadow {
+	filter: drop-shadow(3px 5px 6px rgba(0, 0, 0, 0.4));
+	filter: brightness(130%)
+}
+
+.image-shadow:hover {
+	filter: brightness(200%)
+}
