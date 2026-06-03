@@ -41,7 +41,7 @@ function showPopup(title, message) {
 function isEmailValid(email) {
 
     if (!email.includes("@")) {
-        return false
+        return false;
     }
 
     if (!email.includes(".")) {
@@ -52,10 +52,22 @@ function isEmailValid(email) {
         return false;
     }
 
+    if (email.indexOf("@") === 0) {
+        return false;
+    }
+
+    if (email.lastIndexOf(".") < 3) {
+        return false;
+    }
+
     if (email.lastIndexOf(".") < email.indexOf("@")) {
         return false;
     }
-    
+
+    if (email.length > 254) {
+        return false;
+    }   
+
     return true;
 
 }
