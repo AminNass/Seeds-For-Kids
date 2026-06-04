@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="../Images/header/website-icon.png">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
 <!-- TemplateEndEditable -->
@@ -21,7 +23,7 @@
 	<button onClick="window.location.href='Schools.html#Secondary';" class="sidebar-button">Secondary</button>
 	<button onClick="window.location.href='Schools.html#Parents';" class="sidebar-button">Parents</button>
 	<button onClick="window.location.href='Families.html';" class="sidebar-button white-btn">Families</button>
-	<button onClick="window.location.href='Families.html#Consultation';" class="sidebar-button">Consuluation</button>
+	<button onClick="window.location.href='Families.html#Consultation';" class="sidebar-button">Consultation</button>
 	<button onClick="window.location.href='Families.html#Education-Plan';" class="sidebar-button">Education Plan</button>
 	<button onClick="window.location.href='Families.html#Cooking-Course';" class="sidebar-button">Cooking Course</button>
 	<button onClick="window.location.href='News.html';" class="sidebar-button white-btn">News</button>
@@ -57,22 +59,22 @@
 	
 </header>
 	
-<section>
+<main>
 	<!-- TemplateBeginEditable name="Content" -->
 	
 	Content
 	
 	<!-- TemplateEndEditable -->
-</section>
+</main>
 	
 <footer>
 	<div class="footerbox">
 		<p style="font-size: 20px; font-weight: 500;">
-			Food Hygine Rating
+			Food Hygiene Rating
 	  		<br>
 			<div class="divider-line"></div>
 	  		<br>
-	  		<img loading="lazy" src="../Images/footer/food-hygiene-rating.png" width="150" height="80" alt=""/>
+	  		<img loading="lazy" src="../Images/footer/food-hygiene-rating.png" width="150" height="80" alt="Food Hygiene Rating 5"/>
 		</p>
 	</div>
 	<div class="footerbox">
@@ -81,7 +83,7 @@
 			<br>
 			<div class="divider-line"></div>
 			<br>
-			<img loading="lazy" src="../Images/footer/kensington-chelsea-18finalist.png" width="192" height="90" alt=""/>
+			<img loading="lazy" src="../Images/footer/kensington-chelsea-18finalist.png" width="192" height="90" alt="Kensington and Chelsea Business Awards 2018 FINALIST"/>
 		</p>
 	</div>
 	<div class="footerbox">
@@ -90,7 +92,7 @@
 			<br>
 			<div class="divider-line"></div>
 			<br>
-    		<img loading="lazy" src="../Images/footer/leiths-cookery.png" width="170" height="80" alt=""/>
+    		<img loading="lazy" src="../Images/footer/leiths-cookery.png" width="170" height="80" alt="Leiths, School of food and wine."/>
 		</p>
 	</div>
 	<div class="footerbox">
@@ -101,7 +103,9 @@
 		</p>
 		
 		<p style="font-size: 18px; font-weight: 400;">
-			Info@seedsforkids.co.uk
+			<a href="mailto:info@seedsforkids.co.uk">
+    			info@seedsforkids.co.uk
+			</a>
 			<br><br>
 			West London
 			<br>
