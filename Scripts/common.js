@@ -66,7 +66,11 @@ function isEmailValid(email) {
 
     if (email.length > 254) {
         return false;
-    }   
+    }
+
+    if (email.indexOf("@") != email.lastIndexOf("@")) {
+        return false;
+    }
 
     return true;
 
